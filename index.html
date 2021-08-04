@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>My Result</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="logo" class="col">
+          <img src="./img/logo.png" />
+        </div>
+        <div class="col congratulation">
+          Congratulations!<br />
+          We have assessed your Interests and Aptitudes and we are excited to
+          share them with you.
+        </div>
+      </div>
+      <!-- End row -->
+      <div class="heading">Date : <div class="border-date">20-07-2021</div></div>
+      <div class="heading mr-top-name">Name : <span class="border-name">Mohit Gupta</span></div>
+      <div class="heading mr-top">This report contains the following:</div>
+      <div class="row">
+          <div class="col">
+              <div class="point"><i class="fas fa-check-circle"></i>Your assessed fields of Interest</div>
+              <div class="point"><i class="fas fa-check-circle"></i>Information about your Interest fields</div>
+              <div class="point"><i class="fas fa-check-circle"></i>Higher education options</div>
+          </div>
+          <div class="col">
+            <div class="point"><i class="fas fa-check-circle"></i>Your assessed Aptitudes and how to improve them</div>
+            <div class="point"><i class="fas fa-check-circle"></i>How to make an informed decision on your career
+                pathway</div>
+          </div>
+      </div>
+      <!-- End row -->
+      <div class="heading mr-top">This graph indicates your level of interest in 7 fields.</div>
+      <canvas id="interest"class="graph"></canvas>
+      <div class="heading mr-top">This graph indicates your aptitude test scores.</div>
+      <canvas id="aptitude" class="graph"></canvas>
+       
+      <div class="button">
+          <button type="submit" class="btn" onclick="Download()">Download Result</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

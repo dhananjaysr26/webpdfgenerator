@@ -1,0 +1,92 @@
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 50%;
+    margin: 1%;
+}
+
+.congratulation {
+    float: right;
+    width: 300px;
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+    color: green;
+}
+
+.border-name {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    display: inline;
+
+}
+
+.border-date {
+    display: inline;
+    width: 100%;
+    border-bottom: 1px solid gray;
+
+}
+
+.point {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+}
+
+.fa-check-circle {
+    color: green;
+    margin-right: 0.2em;
+}
+
+.heading {
+    margin: 5px;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.mr-top {
+    margin-top: 1em;
+}
+
+.mr-top-name {
+    margin-top: 0.em;
+}
+
+.button {
+    text-align: center;
+    margin: 2em;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background: #29419B00 0% 0% no-repeat padding-box;
+    border: 2px solid #29419B;
+    border-radius: 10px;
+    text-align: center;
+    font: normal normal bold 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #29419B;
+    opacity: 1;
+}
+
+.btn:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+.graph {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 1000px;
+}
